@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidramp.blogspot.customviewbuttonwidget.Card
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        app:my_icon="@drawable/icon_alarm"
+        app:my_title_1="TextView 1"
+        app:my_title_2="TextView 2"
+        app:my_bg="@color/Color1a"/>
+
+    <androidramp.blogspot.customviewbuttonwidget.Card
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        app:my_icon="@drawable/icon_heart"
+        app:my_title_1="TextView 1"
+        app:my_title_2="TextView 2"
+        app:my_bg="@color/Color2a" />
+
+</LinearLayout>
